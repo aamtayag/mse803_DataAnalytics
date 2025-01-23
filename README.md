@@ -2,9 +2,13 @@
 
 Course exercises:
 
-Week#2 - 
+Week#2 - Data analysis using insurance data (insurance.csv)
 
-Week#4 - 
+   Script name: insurance.ipynb
+
+Week#4 - Numpy/Panda exercises
+
+   Script name: *
 
 Week#6 - Data cleaning using the iris dataset
 
