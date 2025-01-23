@@ -18,8 +18,8 @@ y = iris_df.isnull().mean()
 iris_X=iris_df.iloc[:5,[0,1,2,3]]
 print(iris_X)
 
-print(f"Number of missing values: {missing_count}")
-print(f"Mean of missing values: {missing_mean}")
+print(f"Number of missing values: {x}")
+print(f"Mean of missing values: {y}")
 
 ### TASK2: Here - Write a short readme to explain above code and how we can calculate the corrolation amoung featuers with description
 
