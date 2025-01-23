@@ -10,7 +10,7 @@ Week#4 - Numpy/Panda exercises
 
    Script name: *
 
-Week#6 - Data cleaning using the iris dataset
+Week#6 - Simple data cleaning using the Iris dataset
 
    Script name: Data-cleaning.py
 

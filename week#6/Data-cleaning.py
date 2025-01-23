@@ -2,6 +2,8 @@
 ################ Data cleaning the Iris dataset #################
 from sklearn import datasets
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 # load iris dataset
 iris = datasets.load_iris()
@@ -23,4 +25,16 @@ print(f"Mean of missing values: {y}")
 
 ### TASK2: Here - Write a short readme to explain above code and how we can calculate the corrolation amoung featuers with description
 
+df = pd.DataFrame(iris_data.data, columns=iris_data.feature_names)
 
+# Calculate the correlation matrix
+correlation_matrix = df.corr()
+
+# Display the correlation matrix
+print("Correlation matrix:\n", correlation_matrix)
+
+# Create a heatmap for better visualization
+plt.figure(figsize=(8, 6))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
+plt.title('Correlation Heatmap of Iris Dataset Features')
+plt.show()
