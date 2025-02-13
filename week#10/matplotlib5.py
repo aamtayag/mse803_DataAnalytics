@@ -18,3 +18,4 @@ plt.show()
 
 
 # I believe the best plot type to use here is a Histogram
+# You can see the value ranges, for each distribution type, from this chart type
