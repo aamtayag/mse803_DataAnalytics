@@ -1,4 +1,5 @@
 
+# using scatter plot
 
 import matplotlib.pyplot as plt
 categories = ['A','B', 'C','D']
