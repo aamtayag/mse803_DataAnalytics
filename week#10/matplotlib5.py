@@ -16,27 +16,26 @@ d = data['Poisson_Distribution']
 plt.subplot(2,2,1)
 plt.plot(a)
 plt.title('Normal_Distribution')
-#plt.savefig('fig5.png')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
 
 plt.subplot(3, 2, 2)
 plt.plot(b)
 plt.title('Uniform_Distribution')
-
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
 
 plt.subplot(3, 2, 5)
 plt.plot(c)
 plt.title('Exponential_Distribution')
-
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
 
 plt.subplot(3, 2, 6)
 plt.plot(d)
 plt.title('Poisson_Distribution')
-
-
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
-
-
 
 plt.show()
 #plt.close()
